@@ -1,0 +1,415 @@
+div.header {
+	width: calc(100vw - 17px);
+	height: 41vw;
+	background-image: url(../img/header-pc.png);
+	/* 设置背景图片不重复 */
+	background-repeat: no-repeat;
+	/* 设置背景图片的位置 */
+	background-position: center;
+	/* 设置背景图片的大小 */
+	background-size: cover;
+}
+div.patterns {
+	width: calc(100vw - 17px);
+	height: 39vw;
+	padding-top: 9vw;
+}
+h1.title {
+	font-family: Helvetica-Bold;
+	font-size: 2vw;
+	font-weight: 800;
+	font-stretch: normal;
+	letter-spacing: 0vw;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 4vw;
+}
+div.pattern {
+	width: 67vw;
+	height: 16vw;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+div.pattern img {
+	width: 16vw;
+	height: 16vw;
+}
+div.banner {
+	height: 28vw;
+	width: calc(100vw - 17px);
+	padding: 0 16vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+div.banner img {
+	width: 41vw;
+	height: 24vw;
+}
+div.banner .text h1 {
+	font-family: Helvetica-Bold;
+	font-size: 2vw;
+	font-weight: 800;
+	font-stretch: normal;
+	line-height: 2vw;
+	letter-spacing: 0vw;
+	color: #000000;
+	margin-bottom: 2vw;
+}
+div.banner .text p {
+	width: 23vw;
+	font-family: Helvetica-Light;
+	font-size: 1vw;
+	font-weight: 100;
+	letter-spacing: 0vw;
+	color: #2c2c2c;
+}
+div.sunflower {
+	background-color: #fffdf3;
+}
+div.sunflower.banner .text.bottom {
+	display: none;
+}
+div.passiflora.banner .text.bottom {
+	display: none;
+}
+div.garden {
+	background-color: #fff4f5;
+}
+div.passiflora {
+	background-color: #faf6fb;
+}
+div.wind {
+	background-color: #f3f9ff;
+}
+div.wind.banner .text.top {
+	display: none;
+}
+div.garden.banner .text.top {
+	display: none;
+}
+div.swiper {
+	-webkit-user-select: none; /* Chrome/Safari/Opera */
+	-khtml-user-select: none; /* Konqueror */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE/Edge */
+	user-select: none; /* Standard syntax */
+	/* overflow: hidden; */
+	width: 67vw;
+	height: 25vw;
+	margin: 0 auto;
+	background-color: #fff;
+	height: 35vw;
+	/* width: calc(100vw - 17px); */
+	padding-top: 6vw;
+	position: relative;
+}
+
+.my-swiper-container {
+	position: relative;
+}
+div.swiper .swiper-button-next,
+div.swiper .swiper-button-prev {
+	visibility: hidden;
+}
+
+div.button-map.swiper-button-next {
+	right: 12vw;
+}
+div.button-map.swiper-button-prev {
+	left: 12vw;
+}
+div.button-map.swiper-button-next.aria-disabled,
+div.button-map.swiper-button-prev.aria-disabled {
+	opacity: 0.5;
+}
+
+div.swiper .swiper-button-next,
+div.swiper .swiper-button-prev,
+div.button-map.swiper-button-next,
+div.button-map.swiper-button-prev {
+	background-color: rgb(245, 245, 245);
+	/* background-color: red; */
+	width: 3vw;
+	height: 3vw;
+	border-radius: 100%;
+	position: absolute;
+	top: 12vw;
+}
+
+div.swiper .swiper-button-next::after,
+div.swiper .swiper-button-prev::after,
+div.button-map.swiper-button-next::after,
+div.button-map.swiper-button-prev::after {
+	font-size: 1vw; /* 设置箭头大小 */
+	color: black; /* 设置箭头颜色 */
+	font-weight: bold;
+}
+
+div.swiper .swiper-wrapper .swiper-slide {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+div.swiper .swiper-wrapper .swiper-slide img {
+	width: 16vw;
+	height: 16vw;
+	margin-bottom: 1vw;
+}
+div.swiper .swiper-wrapper .swiper-slide .title {
+	margin-bottom: 0.5vw;
+	font-family: Helvetica-Light;
+	font-size: 1vw;
+	font-weight: 100;
+	font-stretch: normal;
+	letter-spacing: 0vw;
+	color: #232323;
+}
+div.swiper .swiper-wrapper .swiper-slide .price {
+	font-family: Helvetica-Bold;
+	font-size: 1vw;
+	font-weight: 800;
+	font-stretch: normal;
+	letter-spacing: 0vw;
+	color: #232323;
+}
+div.try {
+	width: calc(100vw - 17px);
+	height: 29vw;
+	background-image: url(../img/try.png);
+	background-size: cover;
+	padding-top: 4vw;
+}
+div.try h1 {
+	line-height: 1;
+	text-align: center;
+	font-family: Helvetica-Bold;
+	font-size: 3vw;
+	font-weight: 800;
+	font-stretch: normal;
+	letter-spacing: 0vw;
+	color: #ffffff;
+	margin-bottom: 2vw;
+}
+div.try .content {
+	width: 46vw;
+	height: 5vw;
+	font-family: Helvetica;
+	font-size: 1.5vw;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0vw;
+	color: #ffffff;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 2vw;
+}
+div.try .search {
+	width: 47vw;
+	height: 3vw;
+	margin: 0 auto;
+	display: flex;
+	margin-bottom: 2vw;
+}
+div.try .search .search-input {
+	flex-grow: 1;
+	height: 100%;
+	display: block;
+	border: 1px solid #fff;
+	background-color: rgba(255, 255, 255, 0.25);
+	color: #ffffff;
+	font-size: 2vw;
+	text-align: center;
+}
+div.try .search .search-button {
+	height: 100%;
+	width: 11vw;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Helvetica-Bold;
+	font-size: 1.5vw;
+	font-weight: 800;
+	font-stretch: normal;
+	letter-spacing: 0vw;
+	color: #0b1a14;
+	cursor: pointer;
+}
+div.try .content2 {
+	width: 53vw;
+	font-family: HelveticaNeueLTPro-Th;
+	font-size: 1vw;
+	font-weight: 100;
+	font-stretch: normal;
+	letter-spacing: 0vw;
+	color: #ffffff;
+	margin: 0 auto;
+	text-align: center;
+}
+div.ask {
+	width: calc(100vw - 17px);
+	height: 41vw;
+	padding-top: 9.8vw;
+}
+div.ask h1 {
+	width: 61vw;
+	height: 2vw;
+	font-family: Helvetica-Bold;
+	font-size: 2vw;
+	font-weight: 900;
+	font-stretch: normal;
+	letter-spacing: 0vw;
+	color: #000000;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 5vw;
+}
+div.ask .img {
+	width: 66vw;
+	height: 24vw;
+	margin: 0 auto;
+	background-image: url(../img/ask.png);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+div.ask .img .gap {
+	height: 9vw;
+	background-color: #ffffff;
+	margin-top: 8vw;
+}
+div.ask .img .item {
+	text-align: center;
+	margin-top: 7vw;
+}
+div.ask .img .item.one {
+	width: 9vw;
+}
+div.ask .img .item.two {
+	width: 16vw;
+}
+div.ask .img .item.three {
+	width: 11vw;
+}
+div.ask .img .item .item-img {
+	width: 6vw;
+	height: 6vw;
+	margin-bottom: 2vw;
+}
+div.ask .img .item .item-content {
+	font-family: Helvetica-Bold;
+	font-size: 1.1vw;
+	font-weight: 800;
+	font-stretch: normal;
+	line-height: 2vw;
+	letter-spacing: 0vw;
+	color: #ffffff;
+}
+div.post-win {
+	width: calc(100vw - 17px);
+	height: 56vw;
+	padding-top: 10vw;
+}
+div.post-win h1 {
+	width: 13vw;
+	height: 2vw;
+	font-family: Helvetica-Bold;
+	font-size: 2vw;
+	font-weight: 900;
+	font-stretch: normal;
+	letter-spacing: 0vw;
+	color: #000000;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 6vw;
+}
+div.post-win .content {
+	background-color: #f4fcf8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 38vw;
+}
+div.post-win .content img {
+	height: 100%;
+}
+div.post-win .content .text {
+	width: 38vw;
+	height: 29vw;
+	margin-right: 6vw;
+}
+div.post-win .content .text h3 {
+	width: 20vw;
+	height: 1vw;
+	font-family: Helvetica-Bold;
+	font-size: 1.5vw;
+	font-weight: 900;
+	font-stretch: normal;
+	line-height: 2vw;
+	letter-spacing: 0vw;
+	color: #131313;
+	margin-bottom: 1.5vw;
+}
+div.post-win .content .text p.one {
+	width: 38vw;
+	height: 8vw;
+	font-family: Helvetica;
+	font-size: 1.4vw;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 2vw;
+	letter-spacing: 0vw;
+	color: #131313;
+	margin-bottom: 3vw;
+}
+div.post-win .content .text p.one a {
+	font-family: Helvetica-Bold;
+	font-size: 1.5vw;
+	font-weight: normal;
+	letter-spacing: 0vw;
+	color: #fd831c;
+}
+div.post-win .content .text p.two {
+	width: 22vw;
+	height: 1vw;
+	font-family: Helvetica;
+	font-size: 1vw;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 2vw;
+	letter-spacing: 0vw;
+	color: #131313;
+	margin-bottom: 1vw;
+}
+div.post-win .content .text p.three {
+	width: 24vw;
+	height: 3vw;
+	font-family: Helvetica;
+	font-size: 1vw;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 2vw;
+	letter-spacing: 0vw;
+	color: #131313;
+	margin-bottom: 1vw;
+}
+div.post-win .content .text p.four {
+	width: 27vw;
+	height: 5vw;
+	font-family: Helvetica;
+	font-size: 1vw;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 2vw;
+	letter-spacing: 0vw;
+	color: #131313;
+	margin-bottom: 3vw;
+}
+div.post-win .content .text img {
+	width: 2vw;
+	height: 2vw;
+}

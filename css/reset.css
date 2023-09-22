@@ -1,0 +1,32 @@
+/* 样式重置 */
+/* 清除内外边距 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* 清除列表样式 */
+ul,
+ol {
+	list-style: none;
+}
+/* 清除浮动 */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+/* 清除a标签下划线 */
+a {
+	text-decoration: none;
+}
+/* 清除input默认样式 */
+input {
+	border: none;
+	outline: none;
+}
